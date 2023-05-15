@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+.login-body {
+  box-sizing: border-box;
+}
+
+.login-body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: 0px 0 50px;
+}
+
+.forget-password{
+	text-decoration: none;
+}
+.forget-password:hover{
+	text-decoration: none;
+	font-size: 16px;
+	background-color: white;
+}
+
+.vendor-login{
+	margin-top: 10px;
+	border-radius: 2px solid;
+	border-radius: 20px;
+	padding: 12px 45px;
+   	letter-spacing: 1px;
+	cursor: pointer;
+	
+}
+.vendor-login-area{
+	margin-top: 20px;
+}

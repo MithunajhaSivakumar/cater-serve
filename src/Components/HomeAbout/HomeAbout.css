@@ -1,0 +1,93 @@
+.home_about_h3{
+    font: bold 10rem 'Playfair Display', serif;
+}
+
+.home_about_h3{
+    font-size: 45px;
+}
+
+.home_about_h3,.home_about_h2{
+    font-size: 40px ;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.home_about_p{
+    font-size: 24px;
+    line-height: 40px;
+    padding-bottom: 0.5rem;
+    padding-right: 0px;
+    text-align: justify;
+    color: black;
+}
+
+.home_about_h2{
+    color: #ff8800;
+    font: bold;
+}
+.sectionFirst{
+    background: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center;
+    background-size: cover;
+}
+.btnDiscover{
+font-size: 1rem;
+font-weight: 100;
+color: white;
+background: #ff8800;
+border: none;
+border-radius: 5px;
+text-align: center;
+padding: 1rem 3rem 1rem 3rem;
+display: inline;
+}
+.btnArrow{
+height: 1.5rem;
+margin-left: 1rem;
+display: inline;
+}
+.mainText{
+padding: 1% 0 2% 0;
+width: 60%;
+}
+.mainText{
+clear: both;
+padding-bottom: 2px;
+}
+.sectionFirst .contentContainer{
+width:80%;
+margin-left: 20%;
+}
+.sectionFirst {
+padding: 5% 8% 10% 40%;
+float: right;
+}
+@media (max-width: 1200px){
+.mainText{
+    width: 100%;
+    }
+    .sectionFirst{
+    padding: 5% 8% 10% 8%;
+    }
+    .arrow, .video{
+    display: none;
+    }
+    .home_about_p{
+    font-size: 12px;
+    }
+    .home_about_h3{
+    font-size: 3rem;
+    }
+}
+.main{
+padding: 5% 10%;
+clear:both;
+height: auto;
+contain: content;
+
+}
+.section-ha{
+font-size: 80%;
+font: inherit;
+display: block;
+}
+
+

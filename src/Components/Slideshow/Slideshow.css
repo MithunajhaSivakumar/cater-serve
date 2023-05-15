@@ -1,0 +1,50 @@
+.btn-slideshow{
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    padding:1rem 2rem;   
+}
+#home{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 220px 200px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+.overlay{
+    background: rgb(0,0,0,-5);
+    height: 100vh;
+}
+@media screen and (max-width:768px) {
+    #home{
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+.btn-slideshow{
+    background-color: #16165f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-slideshow:hover{
+    background-color: #5e9e3d;
+ }
+ .h-primary{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 4.5rem;
+ }
+ .home-p{
+    font-size: 2rem;
+ }
